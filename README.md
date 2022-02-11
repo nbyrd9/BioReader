@@ -21,4 +21,6 @@ To run the tests, type the following:
 
 ```bundle exec rspec```
 
+Enjoy!
+
 
