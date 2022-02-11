@@ -2,13 +2,13 @@ class Person
     attr_accessor :firstName, :lastName, :job, :children, :pets, :totalAssetWorth, :totalDebt
 
     def initialize(hash)
-            self.firstName = hash[:firstName]
-            self.lastName = hash[:lastName]
-            self.job = hash[:job]
-            self.totalAssetWorth = hash[:totalAssetWorth]
-            self.totalDebt = hash[:totalDebt]
-            self.children = hash[:children]
-            self.pets = hash[:pets]
+      self.firstName = hash[:firstName]
+      self.lastName = hash[:lastName]
+      self.job = hash[:job]
+      self.totalAssetWorth = hash[:totalAssetWorth]
+      self.totalDebt = hash[:totalDebt]
+      self.children = hash[:children]
+      self.pets = hash[:pets]
     end
 
    
