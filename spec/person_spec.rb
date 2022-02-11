@@ -1,4 +1,4 @@
-require "./Person"
+require_relative('../lib/Person')
 
 describe Person do 
     describe 'firstName' do
